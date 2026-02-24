@@ -1,0 +1,77 @@
+<!--Process to run the App--> 
+<!--cd backend --> 
+<!--python -m uvicorn main:app or python -m uvicorn main:app --reload--> 
+<!--Open new CMD--> 
+<!--cd frontend--> 
+<!--python -m http.server 5500--> 
+<!--Then type "http://127.0.0.1:5500/index.html" in Browser-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panchganga Flood Alert System</title>
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h2>Panchganga Flood Alert System</h2>
+    <p>Kolhapur District, Maharashtra</p>
+</header>
+<div id="emergencyBanner" style="display:none;">
+  🚨 SEVERE FLOOD WARNING – EVACUATE IMMEDIATELY 🚨
+</div>
+
+
+<main class="main-container">
+
+    <!-- MAP SECTION -->
+    <section id="map-section">
+        <div id="map"></div>
+    </section>
+
+    <!-- CARD SECTION -->
+    <section class="card-section">
+
+        <!-- ALERT CARD -->
+        <div class="card alert-card" id="alertCard">
+            <h3>Current Flood Status</h3>
+            <p><strong>Date:</strong> <span id="date">--</span></p>
+            <p><strong>Alert Level:</strong> 
+                <span id="alertLevel" class="status-text">--</span>
+            </p>
+        </div>
+        <!-- TIMELINE CARD -->
+        <div class="card">
+            <h3>Timeline Simulation</h3>
+            <input type="range" 
+                   id="timeSlider" 
+                   min="0" 
+                   max="11323" 
+                   step="1" 
+                   value="0">
+            <p>Time Index: <span id="timeValue">0</span></p>
+        </div>
+        
+        <!-- AFFECTED VILLAGES CARD -->
+        <div class="card">
+            <h3>Affected Villages</h3>
+            <ul id="villageList"></ul>
+        </div>
+        
+    </section>
+
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

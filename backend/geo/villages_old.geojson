@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    { "type": "Feature", "properties": { "name": "Ichalkaranji", "population": 287000 }, "geometry": { "type": "Point", "coordinates": [74.465, 16.691] } },
+    { "type": "Feature", "properties": { "name": "Shirol", "population": 18000 }, "geometry": { "type": "Point", "coordinates": [74.602, 16.733] } },
+    { "type": "Feature", "properties": { "name": "Hatkanangale", "population": 24000 }, "geometry": { "type": "Point", "coordinates": [74.467, 16.748] } },
+    { "type": "Feature", "properties": { "name": "Rukadi", "population": 12000 }, "geometry": { "type": "Point", "coordinates": [74.369, 16.690] } },
+    { "type": "Feature", "properties": { "name": "Shahapur", "population": 15000 }, "geometry": { "type": "Point", "coordinates": [74.243, 16.705] } },
+    { "type": "Feature", "properties": { "name": "Ujalaiwadi", "population": 9500 }, "geometry": { "type": "Point", "coordinates": [74.300, 16.710] } },
+    { "type": "Feature", "properties": { "name": "Kagal", "population": 36000 }, "geometry": { "type": "Point", "coordinates": [74.316, 16.577] } },
+    { "type": "Feature", "properties": { "name": "Gokul Shirgaon", "population": 21000 }, "geometry": { "type": "Point", "coordinates": [74.310, 16.680] } },
+    { "type": "Feature", "properties": { "name": "Sangavade", "population": 8000 }, "geometry": { "type": "Point", "coordinates": [74.355, 16.720] } },
+    { "type": "Feature", "properties": { "name": "Vadange", "population": 10500 }, "geometry": { "type": "Point", "coordinates": [74.280, 16.695] } },
+    { "type": "Feature", "properties": { "name": "Nagaon", "population": 7000 }, "geometry": { "type": "Point", "coordinates": [74.420, 16.720] } },
+    { "type": "Feature", "properties": { "name": "Chikhali", "population": 9500 }, "geometry": { "type": "Point", "coordinates": [74.450, 16.740] } },
+    { "type": "Feature", "properties": { "name": "Kaneri", "population": 6000 }, "geometry": { "type": "Point", "coordinates": [74.330, 16.660] } },
+    { "type": "Feature", "properties": { "name": "Tardal", "population": 13000 }, "geometry": { "type": "Point", "coordinates": [74.490, 16.705] } },
+    { "type": "Feature", "properties": { "name": "Rajapur", "population": 11000 }, "geometry": { "type": "Point", "coordinates": [74.260, 16.650] } },
+    { "type": "Feature", "properties": { "name": "Kasaba Bawada", "population": 20000 }, "geometry": { "type": "Point", "coordinates": [74.230, 16.720] } },
+    { "type": "Feature", "properties": { "name": "Shiroli MIDC", "population": 17000 }, "geometry": { "type": "Point", "coordinates": [74.420, 16.710] } },
+    { "type": "Feature", "properties": { "name": "Kumbi", "population": 5000 }, "geometry": { "type": "Point", "coordinates": [74.390, 16.680] } },
+    { "type": "Feature", "properties": { "name": "Sambhapur", "population": 7500 }, "geometry": { "type": "Point", "coordinates": [74.270, 16.750] } },
+    { "type": "Feature", "properties": { "name": "Kuditre", "population": 6800 }, "geometry": { "type": "Point", "coordinates": [74.310, 16.740] } }
+
+  ]
+}

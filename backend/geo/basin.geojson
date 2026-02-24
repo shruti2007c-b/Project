@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panchganga Basin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [74.20, 16.65],
+            [74.30, 16.65],
+            [74.30, 16.75],
+            [74.20, 16.75],
+            [74.20, 16.65]
+          ]
+        ]
+      }
+    }
+  ]
+}
